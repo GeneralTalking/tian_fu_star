@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: tfx-web
+pagehelper:
+  helperDialect: mysql
+  pageSizeZero: true
+  supportMethodsArguments: true
+  reasonable: true
+feign:
+  hystrix:
+    enabled: false
